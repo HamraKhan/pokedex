@@ -7,8 +7,8 @@ const App = () => {
   return (
     <div>
       <Logo appName="Pokedex"/>
-      <BestPokemon const abilities = {["Anticipation", "Adaptability", "Run-Away"]} />
-      <CaughtPokemon const date = {new Date().toLocaleDateString()} />
+      <BestPokemon abilities={["Anticipation", "Adaptability", "Run-Away"]} />
+      <CaughtPokemon date={new Date().toLocaleDateString()} />
     </div>
   );
 };
